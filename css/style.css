@@ -1,0 +1,101 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"); */
+body {
+   font-size: 20px;
+}
+
+header {
+    background: #FFBA00;
+    color: #414141;
+    height: 86px;
+    font-size: 18px;
+    /* text-align: center;  */
+    /* padding: 20px; */
+}
+
+article {
+   margin: 25px auto;
+}
+
+.row {
+   margin: 25px auto;
+}
+.fa-map-marker {
+    color: #F2310F;
+}
+
+a {
+    text-decoration: none;
+}
+
+.address {
+    padding: 29px;
+}
+
+ul {
+    list-style-type: none;
+}
+ ul.telephone {
+    
+    text-align: right;
+    padding: 11px;
+    
+ }
+ .listWork li {
+   padding: 10px 0;
+ }
+
+ .fa-map-marker {
+    transform: scale(1.5,1.5);
+ }
+
+ .imgBalance {
+    /* height: 25 contacts 0px; */
+    height: 250px;
+ }
+
+ .logo{
+    height: 80px;
+ 
+ }
+ h1, h2 {
+    color: #FFBA00;
+ }
+
+ h2 {
+   margin-top: 50px;
+ }
+ 
+.listWork {
+    content: "-";
+    text-indent: -5px;
+}
+
+button {
+   position: relative;
+   left: 50%;
+   transform: translate(-50%, 0);
+}
+
+button a {
+   color: #fff;
+   font-weight: bold;
+   margin: 30px 0;
+}
+
+
+.contacts {
+border-top: 3px solid #F2310F;
+margin: 50px 0;
+}
+
+
+ footer {
+    background: #FFBA00;
+    color: #fff;
+    font-size: 18px;
+    height: 75px;
+ }
+
+ footer p {
+   margin: 0;
+ }
