@@ -57,6 +57,13 @@ ul {
     height: 80px;
  
  }
+.nav-text {
+   text-align: right;
+}
+.article-text {
+   text-align: center;
+}
+
  h1, h2 {
     color: #FFBA00;
  }
