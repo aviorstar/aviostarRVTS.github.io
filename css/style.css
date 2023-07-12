@@ -1,108 +1,183 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"); */
-body {
-   font-size: 20px;
-}
+   body {
+      /* max-width: 1320px; */
+      font-size: 16px;
+      background-color: #faf6f6;
+      font-family: 'Inter', sans-serif;
+   }
 
-header {
-    background: #FFBA00;
-    color: #414141;
-    height: 86px;
-    font-size: 18px;
-    /* text-align: center;  */
-    /* padding: 20px; */
-}
+   a {
+      text-decoration: none;
+   }
 
-article {
-   margin: 25px auto;
-}
+   h1, h2 {
+      color: #FFBA00;
+   }
 
-.row {
-   margin: 25px auto;
-}
-.fa-map-marker {
-    color: #F2310F;
-}
+   h2 {
+      margin-top: 50px;
+   }
 
-a {
-    text-decoration: none;
-}
+/* _____ШАПКА____ */
 
-.address {
-    padding: 29px;
-}
+      /* header {
+         border-bottom: 2px solid #F2310F;
+         padding-left: 0;
+         padding-right: 0;
 
-ul {
-    list-style-type: none;
-}
- ul.telephone {
-    
-    text-align: right;
-    padding: 11px;
-    
- }
- .listWork li {
-   padding: 10px 0;
- }
+      } */
+      /* .navbar-expand-md .navbar-nav .nav-link.active {
+         color: #F2310F;
+      } */
 
- .fa-map-marker {
-    transform: scale(1.5,1.5);
- }
+      nav {
+         border-bottom: 2px solid #F2310F;
+      }
+      .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+         background-color: #FFBA00;
+      }
 
- .imgBalance {
-    /* height: 25 contacts 0px; */
-    height: 250px;
- }
+      .nav-link {
+         color: #FFBA00;
+         font-size: 1.1em !important;
+      }
 
- .logo{
-    height: 80px;
+      .nav-link:hover {
+         color: #ffd75f;
+      }
+
+      .navbar-brad img {
+         width: 100px;
+      }
+
+      .logo-header {
+         height: 46px;
+      }
+
+      .fa-map-marker {
+         color: #F2310F;
+         transform: scale(1.5,1.5);
+      }
+
+
+
+/* _____КОНТЕЙНЕР КТО____ */
+   
+      .container-who {
+      margin: 50px auto;
+   }
+
+   article {
+      margin: 50px auto;
+   }
+
+   .imgBalance {
+      /* height: 25 contacts 0px; */
+      height: 250px;
+   }
+
+   .logo{
+      height: 80px;
+   
+   }
+   .container-who-text {
+      text-align: right;
+   }
+
+
+/* ___РАБОТЫ___ */
+
+   .listWork li {
+      padding: 10px 0;
+   }
+
+   .row {
+      margin: 25px auto;
+   }
+
+   .listWork {
+      content: "-";
+      text-indent: -5px;
+   }
+
+   .btn {
+
+      /* display: flex;
+      justify-content: center; */
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 0);
+      margin-top: 50px;
+   }
+
+   .btn a {
+      color: #fff;
+      font-weight: bold;
+      margin: 30px 0;
+   }
+
+
+/* ____ИНФОРМАЦИЯ_____ */
+
+   .address {
+      padding: 29px;
+   }
+
+   ul {
+      list-style-type: none;
+   }
+
+   ul.telephone {
+      
+      text-align: right;
+      padding: 11px;
+      
+   }
+
+   .contacts {
+      border-top: 2px solid #F2310F;
+      margin: 50px 0;
+   }
+
  
- }
-.nav-text {
-   text-align: right;
-}
-.article-text {
-   text-align: center;
-}
 
- h1, h2 {
-    color: #FFBA00;
- }
+   
 
- h2 {
-   margin-top: 50px;
- }
- 
-.listWork {
-    content: "-";
-    text-indent: -5px;
-}
+   
+   .article-text {
+      text-align: center;
+      
+   }
+   .blockmap{ 
+      border-top: 2px solid #F2310F;
+   }
+   #map {
+      margin: 50px auto;
+   }
 
-button {
-   position: relative;
-   left: 50%;
-   transform: translate(-50%, 0);
-}
-
-button a {
-   color: #fff;
-   font-weight: bold;
-   margin: 30px 0;
-}
+   
+   
+   
 
 
-.contacts {
-border-top: 3px solid #F2310F;
-margin: 50px 0;
-}
+   
 
+/* ____ПОДВАЛ____ */
 
- footer {
-    background: #FFBA00;
-    color: #fff;
-    font-size: 18px;
-    height: 75px;
- }
+   footer {
+      /* background: #FFBA00; */
+      border-top: 2px solid #F2310F;
+      color: #FFBA00;
+      /* font-weight: bold; */
+   }
+   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      padding-left: 0;
+      padding-right: 0;
+   
+   }
 
- footer p {
-   margin: 0;
- }
+   
+   footer p {
+      margin: 0;
+      padding: 24px auto;
+   }
