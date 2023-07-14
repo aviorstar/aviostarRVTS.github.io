@@ -14,8 +14,18 @@
       color: #FFBA00;
    }
 
+   h1 {
+      font-size: 32px;
+      margin: 23px 0;
+   }
    h2 {
-      margin-top: 50px;
+      margin-top: 30px;
+
+   }
+
+   ul {
+      list-style-type: none;
+      padding: 0;
    }
 
 /* _____ШАПКА____ */
@@ -33,14 +43,19 @@
       nav {
          border-bottom: 2px solid #F2310F;
       }
-      .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+      /* .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
          background-color: #FFBA00;
-      }
+      } */
 
       .nav-link {
          color: #FFBA00;
          font-size: 1.1em !important;
+         padding-left: 10px;
       }
+      .navbar-nav .nav-link {
+         padding-right: 0;
+         padding-left: 10px;
+     }
 
       .nav-link:hover {
          color: #ffd75f;
@@ -59,16 +74,27 @@
          transform: scale(1.5,1.5);
       }
 
+      .active{
+         background-color: #FFBA00;
+         border-radius: 10px;
+         color: #40da03;
+      }
+      .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+         color: #fff;
+     }
+      
+
+
 
 
 /* _____КОНТЕЙНЕР КТО____ */
    
-      .container-who {
+   .container-who {
       margin: 50px auto;
    }
 
    article {
-      margin: 50px auto;
+      margin: 30px auto;
    }
 
    .imgBalance {
@@ -84,21 +110,37 @@
       text-align: right;
    }
 
+   /* .container-sm {
+
+   } */
+
 
 /* ___РАБОТЫ___ */
 
    .listWork li {
       padding: 10px 0;
+      position: relative;
+      /* display: inline-block; */
+      list-style: none;
+      margin-left: 30px;
    }
-
+   .listWork li::before {
+      position: absolute;
+      left: -0.6em;
+      top: 0em;
+    
+      display: inline-block; 
+      
+      font-size: 1.8em;
+      color: #FFBA00; /* цвет маркера */
+      content: "-";
+      }
    .row {
       margin: 25px auto;
    }
+   
 
-   .listWork {
-      content: "-";
-      text-indent: -5px;
-   }
+   
 
    .btn {
 
@@ -107,7 +149,7 @@
       position: relative;
       left: 50%;
       transform: translate(-50%, 0);
-      margin-top: 50px;
+      margin-top: 30px;
    }
 
    .btn a {
@@ -123,9 +165,7 @@
       padding: 29px;
    }
 
-   ul {
-      list-style-type: none;
-   }
+  
 
    ul.telephone {
       
@@ -139,20 +179,23 @@
       margin: 50px 0;
    }
 
- 
-
-   
-
-   
-   .article-text {
-      text-align: center;
-      
+   h2.article-text {
+      text-align: center; 
    }
+
+   
+
+   
+   /* .article-text {
+      text-align: center; 
+   } */
+
    .blockmap{ 
       border-top: 2px solid #F2310F;
    }
    #map {
       margin: 50px auto;
+      text-align: center; 
    }
 
    
