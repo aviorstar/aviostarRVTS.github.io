@@ -17,7 +17,7 @@
 
    h1 {
       font-size: 32px;
-      margin: 23px 0;
+      margin: 15px 0;
    }
    h2 {
       margin-top: 20px;
@@ -88,6 +88,9 @@
    .container-who {
       margin: 20px auto;
    }
+   .container-who-ritgh{
+      margin-top: 20px;
+   }
 
    article {
       margin: 20px auto;
@@ -95,7 +98,13 @@
 
    .imgBalance {
       /* height: 25 contacts 0px; */
-      height: 250px;
+      /* height: 250px; */
+      object-fit: cover;
+      height: auto;
+      width: 100%;
+      max-width: 374px;
+      display: block;
+      margin: auto;
    }
 
    .logo{
@@ -173,7 +182,7 @@
 
    .contacts {
       border-top: 2px solid #F2310F;
-      margin: 50px 0;
+      margin: 30px 0;
    }
 
    h2.article-text {
@@ -183,15 +192,18 @@
    
 
    
-   /* .article-text {
+   .article-text {
       text-align: center; 
-   } */
+   }
+   .row-info{
+      max-width: 720px;
+   }
 
    .blockmap{ 
       border-top: 2px solid #F2310F;
    }
    #map {
-      margin: 50px auto;
+      margin: 30px auto;
       text-align: center; 
    }
 
