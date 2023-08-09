@@ -5,6 +5,7 @@
       background-color: #faf6f6;
       font-family: 'Inter', sans-serif;
       /* min-width: 360px; */
+      margin: 0 5px;
    }
 
    a {
@@ -20,7 +21,8 @@
       margin: 15px 0;
    }
    h2 {
-      margin-top: 20px;
+      margin-top: 15px;
+      margin-bottom: 15px;
 
    }
 
@@ -113,11 +115,8 @@
    }
    .container-who-text {
       text-align: center;
+      margin: 0 16px;
    }
-
-   /* .container-sm {
-
-   } */
 
 
 /* ___РАБОТЫ___ */
@@ -141,7 +140,7 @@
       content: "-";
       }
    .row {
-      margin: 25px auto;
+      margin: 25px auto x;
    }
    
 
@@ -195,12 +194,15 @@
    .article-text {
       text-align: center; 
    }
-   .row-info{
+   /* .row-info{
       max-width: 720px;
-   }
+      margin: auto;
+   } */
 
    .blockmap{ 
       border-top: 2px solid #F2310F;
+      padding-left: 12px;
+      padding-right: 12px;
    }
    #map {
       margin: 30px auto;
@@ -233,3 +235,4 @@
       margin: 0;
       padding: 24px auto;
    }
+
