@@ -3,8 +3,27 @@
       /* max-width: 1320px; */
       font-size: 16px;
       background-color: #faf6f6;
+      background-color: #fffaee;
+      background: -webkit-linear-gradient(90deg,#b5b8be,#cdc1b6,#cdc1b6); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(90deg,#b5b8be,#cdc1b6,#cdc1b6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+      background: -webkit-linear-gradient(90deg,#d6a0ae,#8281a8,#212541); /* Chrome 10-25, Safari 5.1-6 */ 
+      background: linear-gradient(180deg,#d6a0ae,#8281a8,#212541); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      background: -webkit-linear-gradient(1deg,#737570,#bfbebb); /* Chrome 10-25, Safari 5.1-6 */ 
+      background: linear-gradient(1deg,#737570,#bfbebb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      background: -webkit-linear-gradient(90deg,#e3d8d2,#a8b4c4,#8092aa); /* Chrome 10-25, Safari 5.1-6 */ 
+      background: linear-gradient(0deg,#e3d8d2,#a8b4c4,#8092aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+      background: -webkit-linear-gradient(90deg,#fef1d981,#c7e0f385); /* Chrome 10-25, Safari 5.1-6 */ 
+      background: linear-gradient(0deg,#fef1d981,#c7e0f385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      background: -webkit-linear-gradient(0deg,#ffffff,#c3e4f875); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(0deg,#ffffff,#c3e4f875); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+      
       font-family: 'Inter', sans-serif;
-      /* min-width: 360px; */
+      
       margin: 0 5px;
    }
 
@@ -80,7 +99,21 @@
      .navbar-toggler{
       margin-right: 12px;
      }
-      
+
+     .navbar-light .navbar-toggler {
+      border-color: #FFBA00;
+     }
+     .navbar-toggler {
+      border: 2px solid transparent;;
+     }
+
+     /* .custom-toggler .navbar-toggler-icon {
+      background-image: url (data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>)
+     } */
+     .custom-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,186,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+     
 
 
 
@@ -235,4 +268,3 @@
       margin: 0;
       padding: 24px auto;
    }
-
